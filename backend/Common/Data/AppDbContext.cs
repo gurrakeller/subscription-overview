@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using backend.Common;
 using Common.Entities;
-using Common.Data; // or your namespace for Category, PaymentMethod, Subscription
-
+using Common.Data;
 namespace backend.Common.Data;
 
 public class AppDbContext : IdentityDbContext<AppUser>
